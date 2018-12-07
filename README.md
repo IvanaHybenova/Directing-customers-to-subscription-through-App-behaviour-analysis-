@@ -22,9 +22,15 @@ flask_predict_api.py - Python scirpt with the application
 appdata10.csv - Dataset provided for the project
 top_screens.csv - Additional file containing 58 top screens of the app
 raw_unseen_data - This is actually hold out set (test.set) after the split I saved for being able to test the app
+new_appdata10 - Dataset after the EDA
 
 Instructions:
-Download top_screens.csv, raw_unseen_data.csv and flask_predict_api.py. Through your command line navigate to the folder you are storing these files. Make sure you have python path in your enviroment variables and run command python flask_predict_api.py  
+Download new_appdata10, top_screens.csv, raw_unseen_data.csv, Model.py and flask_predict_api.py to the same folder 
+
+Run Model.py in your favourite Python IDE and save model you would like to use (random forrest will be saved by default) in a folder named "model". (I couldn't upload trained classifier since it is too big.)
+
+
+Through your command line navigate to the folder you are storing these files. Make sure you have python path in your enviroment variables and run command python flask_predict_api.py  
 
 From your browser navigate to your localhost on port 8000. Click on predict_api and then try it out!.
 Insert raw_unseen_data and press execute.
