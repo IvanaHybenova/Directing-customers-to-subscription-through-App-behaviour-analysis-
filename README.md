@@ -27,9 +27,6 @@ new_appdata10 - Dataset after the EDA
 Instructions:
 Download top_screens.csv, raw_unseen_data.csv, all zip files (after unzipping make sure to have final_model.pkl in separate "model" folder created among the under downloaded files) and flask_predict_api.py. 
 
-Run Model.py in your favourite Python IDE and save model you would like to use (random forest will be saved by default) in a folder named "model". (I couldn't upload trained classifier since it is too big.)
-
-
 Through your command line navigate to the folder you are storing these files. Make sure you have python path in your enviroment variables and run command python flask_predict_api.py  
 
 From your browser navigate to your localhost on port 8000. Click on predict_api and then try it out!.
